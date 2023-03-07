@@ -250,19 +250,18 @@ Main start
 .slide-btn-left {
   width: 40px;
   margin-right: 10px;
-  
 }
 .slide-btn-right {
   width: 40px;
   margin-left: 10px;
-  
 }
 .slide-btn-left:hover {
   color: #fff;
   background-color: #677d95;
   transition: all ease 1.5s;
 }
-.slide-btn-right:hover {
+.slide-btn-right:hover,
+:active {
   color: #fff;
   background-color: #677d95;
   transition: all ease 1.5s;
