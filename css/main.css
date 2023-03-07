@@ -248,10 +248,24 @@ Main start
   color: rgb(247, 159, 36);
 }
 .slide-btn-left {
-  padding-right: 20px;
+  width: 40px;
+  margin-right: 10px;
+  
 }
 .slide-btn-right {
-  padding-left: 20px;
+  width: 40px;
+  margin-left: 10px;
+  
+}
+.slide-btn-left:hover {
+  color: #fff;
+  background-color: #677d95;
+  transition: all ease 1.5s;
+}
+.slide-btn-right:hover {
+  color: #fff;
+  background-color: #677d95;
+  transition: all ease 1.5s;
 }
 
 /* 
@@ -390,5 +404,3 @@ Main end
   background-image: url(../img/Untitled_design-8.jpg);
   background-repeat: no-repeat;
 } */
-
-
