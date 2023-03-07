@@ -3,8 +3,6 @@ const sliderItems = Array.from(slider.children);
 const btnNext = document.querySelector("#btnNext");
 const btnPrev = document.querySelector("#btnPrev");
 
-
-
 sliderItems.forEach((slide, index) => {
   if (index !== 0) slide.classList.add("hidden");
 
@@ -47,4 +45,6 @@ function showNextSlide(direction) {
   nextSlide.setAttribute("data-active", "");
 }
 
-
+setInterval(() => {
+  showNextSlide("next");
+}, 4000);
