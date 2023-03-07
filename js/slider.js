@@ -47,4 +47,4 @@ function showNextSlide(direction) {
 
 setInterval(() => {
   showNextSlide("next");
-}, 4000);
+}, 5000);
