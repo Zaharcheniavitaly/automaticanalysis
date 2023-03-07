@@ -250,12 +250,12 @@ Main start
 .slide-btn-left {
   width: 40px;
   margin-right: 10px;
-  border: 2px solid #fff;
+  border: 3px solid #edecec;
 }
 .slide-btn-right {
   width: 40px;
   margin-left: 10px;
-  border: 2px solid #fff;
+  border: 3px solid #edecec;
 }
 .slide-btn-left:hover,
 :active {
