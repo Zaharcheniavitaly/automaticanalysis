@@ -262,16 +262,11 @@ Main start
   transition: all ease 1.5s;
 }
 .slide-btn-right:hover,
-:focus,
-:active {
+:focus {
   color: #fff;
   background-color: #677d95;
   transition: all ease 1.5s;
 }
-/* .slide-btn-right:focus {
-  color: #fff;
-  background-color: #677d95;
-} */
 
 /* 
 Main end
