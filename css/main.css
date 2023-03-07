@@ -237,7 +237,15 @@ Main start
   margin-top: 10px;
   margin-bottom: 10px;
   max-height: 360px;
-  transition: all ease 1s;
+}
+
+img[data-active] {
+  /* transition: all ease 2s; */
+
+  
+ 
+
+  transition: 3s linear;
 }
 
 .slide-btn {
@@ -304,13 +312,23 @@ Main end
 }
 
 .btn__2:hover {
-  color: rgb(37, 37, 32);
+  background-color: rgb(255, 97, 24);
 }
 
 .btn__2:active {
-  position: relative;
-  top: 1px;
+  transform: translateY(2px);
+  box-shadow: none;
+  
 }
+
+/* &:hover {
+  background-color: rgb(255, 97, 24);
+}
+
+&:active {
+  transform: translateY(2px);
+  box-shadow: none;
+} */
 
 /* card start */
 .card-title {

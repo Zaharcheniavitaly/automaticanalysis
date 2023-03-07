@@ -1,15 +1,13 @@
-@media (max-width: 840px) {
-  .nav-list  {
+@media (max-width: 851px) {
+  .nav-list {
     display: none;
   }
-
- 
 
   .nav-button {
     display: block;
   }
 
-  .nav.open .nav-list  {
+  .nav.open .nav-list {
     display: block;
     position: fixed;
     top: 0;
@@ -43,7 +41,6 @@
 
   .main-text {
     margin-bottom: 40px;
-    
   }
   .main-img {
     width: 300px;
@@ -86,5 +83,15 @@
     text-align: center;
     font-size: 16px;
     line-height: 24px;
+  }
+
+  .card-title {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 28px;
+  }
+
+  .card__body {
+    padding: 0px 30px;
   }
 }
