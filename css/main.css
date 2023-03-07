@@ -254,6 +254,7 @@ Main start
 .slide-btn-right {
   width: 40px;
   margin-left: 10px;
+  border: 2px solid #fff;
 }
 .slide-btn-left:hover {
   color: #fff;
@@ -267,6 +268,10 @@ Main start
   background-color: #677d95;
   transition: all ease 1.5s;
 }
+/* .slide-btn-right:focus {
+  color: #fff;
+  background-color: #677d95;
+} */
 
 /* 
 Main end
