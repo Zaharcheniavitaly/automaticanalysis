@@ -41,8 +41,6 @@ btnСircle.forEach((item) => {
   });
 });
 
-
-
 function showNextSlide(direction) {
   const currentSlide = slider.querySelector("[data-active]");
   const currentSlideIndex = +currentSlide.dataset.index;
@@ -64,7 +62,7 @@ function showNextSlide(direction) {
   nextSlide.classList.remove("hidden");
   nextSlide.setAttribute("data-active", "");
 
-  thisSlide(currentSlideIndex)
+  thisSlide(currentSlideIndex);
 }
 
 setInterval(() => {
