@@ -99,8 +99,7 @@ Nav start
 }
 
 .nav {
-  /* display: flex; */
-  /* justify-content: space-between; */
+ 
   background-color: white;
 }
 
@@ -129,12 +128,10 @@ Nav start
 }
 
 .nav-download {
-  /* border: 1 solid black; */
   color: white;
   background-color: rgb(52 57 73);
 }
 
-/* .nav-a:focus, */
 .nav-a:hover {
   background-color: rgb(247, 159, 36);
 }
@@ -298,6 +295,10 @@ img[data-active] {
   margin: 0 10px;
   margin-bottom: 10px;
   cursor: pointer;
+}
+
+.сircleItem:hover{
+  background-color: #565656;
 }
 
 .colorItem--active {
