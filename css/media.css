@@ -68,6 +68,11 @@
     margin-bottom: 10px;
   }
 
+  .nav-a {
+    padding-left: 120px;
+    padding-right: 100px;
+  }
+
   .main-content {
     margin-top: 150px;
   }
