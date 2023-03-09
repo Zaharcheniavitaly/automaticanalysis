@@ -42,6 +42,12 @@ Header
 .header-social__img {
   width: 40px;
 }
+.header-social__img:hover,
+:focus,
+:active {
+  border: 2px solid rgba(247, 159, 36, 0.49);
+  border-radius: 50px;
+}
 
 .header-wrapp {
   display: flex;
