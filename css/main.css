@@ -256,22 +256,30 @@ img[data-active] {
   transition: 3s linear;
 }
 
-/* .slide-btn {
+.slide-btn {
+  display: flex;
+  justify-content: center;
+ margin-top: 10px;
+}
+
+ /* .slide-btn {
   display: flex;
   justify-content: center;
   font-size: 32px;
   font-weight: 900;
 
   color: rgb(247, 159, 36);
-}
-.slide-btn-left {
+} */
+/* .slide-btn-left {
   width: 30px;
   height: 30px;
   margin-right: 10px;
   border: 3px solid #edecec;
   border-radius: 5px;
   line-height: 0.8;
-} */
+} */ 
+
+
 /* .slide-btn-right {
   width: 30px;
   height: 30px;
