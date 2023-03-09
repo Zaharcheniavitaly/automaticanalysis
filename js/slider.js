@@ -1,7 +1,10 @@
 const slider = document.querySelector("#slider");
+const img = document.querySelector("#slider img");
 const sliderItems = Array.from(slider.children);
-const btnNext = document.querySelector("#btnNext");
-const btnPrev = document.querySelector("#btnPrev");
+const btnСircle = document.querySelectorAll(".сircleItem");
+
+// const btnNext = document.querySelector("#btnNext");
+// const btnPrev = document.querySelector("#btnPrev");
 
 sliderItems.forEach((slide, index) => {
   if (index !== 0) slide.classList.add("hidden");
@@ -12,16 +15,33 @@ sliderItems.forEach((slide, index) => {
 
   slide.addEventListener("click", function () {
     showNextSlide("next");
+    thisSlide(index);
   });
 });
 
-btnNext.onclick = function () {
-  showNextSlide("next");
-};
+function thisSlide(index) {
+  btnСircle.forEach((item) => {
+    item.classList.remove("colorItem--active");
+  });
+  btnСircle[index].classList.add("colorItem--active");
+}
 
-btnPrev.onclick = function () {
-  showNextSlide("prev");
-};
+btnСircle.forEach((item) => {
+  item.addEventListener("click", function (e) {
+    const fileName = e.target.dataset.file;
+
+    const newScr = `./img/slider/${fileName}`;
+    img.src = newScr;
+
+    document
+      .querySelector(".colorItem--active")
+      .classList.remove("colorItem--active");
+
+    e.target.classList.add("colorItem--active");
+  });
+});
+
+
 
 function showNextSlide(direction) {
   const currentSlide = slider.querySelector("[data-active]");
@@ -43,8 +63,10 @@ function showNextSlide(direction) {
 
   nextSlide.classList.remove("hidden");
   nextSlide.setAttribute("data-active", "");
+
+  thisSlide(currentSlideIndex)
 }
 
 setInterval(() => {
   showNextSlide("next");
-}, 5000);
+}, 4000);

@@ -242,9 +242,6 @@ Main start
 img[data-active] {
   /* transition: all ease 2s; */
 
-  
- 
-
   transition: 3s linear;
 }
 
@@ -286,6 +283,21 @@ img[data-active] {
   transition: all ease 1.5s;
 }
 
+.сircleItem {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #999;
+  display: inline-block;
+  margin: 0 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.colorItem--active {
+  box-shadow: 0px 0px 0px 3px rgb(247, 159, 36);
+}
+
 /* 
 Main end
 */
@@ -318,7 +330,6 @@ Main end
 .btn__2:active {
   transform: translateY(2px);
   box-shadow: none;
-  
 }
 
 /* &:hover {
