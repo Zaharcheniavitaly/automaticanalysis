@@ -250,6 +250,23 @@ Main start
   line-height: 150%;
 }
 
+.main-text-modal {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.text-modal {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: justify;
+  line-height: 130%;
+  margin-top: 10px;
+}
+
+.mobile-hidden {
+  display: none;
+}
+
 .main-img {
   width: 418px;
   /* transition: all ease 3s; */

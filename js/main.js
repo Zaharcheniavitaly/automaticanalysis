@@ -12,3 +12,20 @@ function handlerBurger() {
 }
 
 navBtn.addEventListener("click", handlerBurger);
+
+
+const textEl = document.querySelectorAll('.text')
+console.log("textEl:", textEl)
+const buttonText = document.querySelector('.button-text')
+console.log("buttonText:", buttonText)
+
+function clickHandler (){
+  console.log("click");
+  textEl.forEach((item)=>{
+  item.classList.toggle("hidden")
+})
+}
+
+buttonText.addEventListener('click', clickHandler)
+
+

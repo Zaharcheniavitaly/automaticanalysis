@@ -46,6 +46,10 @@
     width: 300px;
     height: 350px;
   }
+
+  .hidden {
+    display: none;
+  }
 }
 
 @media (max-width: 540px) {
@@ -104,6 +108,25 @@
     line-height: 24px;
   }
 
+  .main-text-modal__mobile {
+    margin-bottom: 50px;
+  }
+
+  .text-modal-mobile {
+    font-weight: 500;
+    text-align: justify;
+    line-height: 130%;
+    margin-top: 10px;
+  }
+
+  .desktop-hidden {
+    display: none;
+  }
+
+  .mobile-hidden {
+    display: block;
+  }
+
   .card-title {
     margin-top: 60px;
     margin-bottom: 40px;
@@ -112,5 +135,9 @@
 
   .card__body {
     padding: 0px 30px;
+  }
+
+  .hidden {
+    display: none;
   }
 }
