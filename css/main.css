@@ -254,6 +254,8 @@ Main start
 .main-text-modal {
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .text-modal {
@@ -267,8 +269,6 @@ Main start
 .mobile-hidden {
   display: none;
 }
-
-
 
 .main-img {
   width: 418px;
