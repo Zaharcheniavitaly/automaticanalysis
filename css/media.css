@@ -40,7 +40,7 @@
   }
 
   .main-text {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   .main-img {
     width: 300px;
@@ -103,6 +103,7 @@
   }
 
   .main-text {
+    margin-bottom: 20px;
     text-align: center;
     font-size: 16px;
     line-height: 24px;
@@ -125,6 +126,13 @@
 
   .mobile-hidden {
     display: block;
+  }
+
+  .btn__2 {
+    
+    /* margin-top: 10px; */
+    margin-bottom: 40px;
+    
   }
 
   .card-title {

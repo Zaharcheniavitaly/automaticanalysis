@@ -22,7 +22,7 @@ console.log("buttonText:", buttonText)
 function clickHandler (){
   console.log("click");
   textEl.forEach((item)=>{
-  item.classList.toggle("hidden")
+  item.classList.remove("hidden")
 })
 }
 

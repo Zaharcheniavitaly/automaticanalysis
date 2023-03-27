@@ -234,7 +234,8 @@ Main start
 .main-body {
   display: flex;
   flex-direction: column;
-  text-align: left;
+  justify-content: center;
+  /* text-align: left; */
 }
 
 .main-title {
@@ -251,7 +252,7 @@ Main start
 }
 
 .main-text-modal {
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -368,18 +369,36 @@ Main end
 }
 
 .btn__2 {
-  background-color: rgb(37, 37, 32);
-  color: rgb(247, 159, 36);
-  transition: background-color 0.2s ease-in, top 0.2s ease-in;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(247, 159, 36);
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: background-color 0.6s ease-in, top 0.2s ease-in;
 }
 
 .btn__2:hover {
-  background-color: rgb(255, 97, 24);
+  background-color: rgb(52 57 73);
+  color: rgb(247, 159, 36);
+
+  font-weight: 600;
 }
 
 .btn__2:active {
-  transform: translateY(2px);
+  transform: translateY(3px);
   box-shadow: none;
+}
+
+.arrow {
+  padding-left: 5px;
+  font-size: 18px;
 }
 
 /* &:hover {
