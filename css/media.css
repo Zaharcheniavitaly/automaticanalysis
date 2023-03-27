@@ -55,7 +55,7 @@
     /* justify-content: space-between; */
     /* flex-wrap: wrap; */
     /* align-items: center; */
-    height: 130px;
+    height: 120px;
   }
 
   .header-logo__img {
@@ -88,7 +88,7 @@
   }
 
   .main-content {
-    margin-top: 130px;
+    margin-top: 120px;
   }
 
   .main-title {
