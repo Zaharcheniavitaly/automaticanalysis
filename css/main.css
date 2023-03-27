@@ -281,11 +281,11 @@ Main start
   max-height: 360px;
 }
 
-img[data-active] {
+/* img[data-active] {
   /* transition: all ease 2s; */
 
-  transition: 3s linear;
-}
+  /* transition: 3s linear; */
+/* } */ */
 
 .slide-btn {
   display: flex;
@@ -486,6 +486,21 @@ Main end
 
 .hidden {
   display: none;
+}
+.footer {
+  background-color: #202020;
+}
+
+.footer-wrapp {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80px;
+}
+
+.text__copyright {
+  color: #fff;
 }
 
 /* card end */

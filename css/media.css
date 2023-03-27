@@ -148,4 +148,13 @@
   .hidden {
     display: none;
   }
+
+  .footer-wrapp {
+    
+    height: 50px;
+  }
+
+  .text__copyright {
+    font-size: 14px;
+}
 }
