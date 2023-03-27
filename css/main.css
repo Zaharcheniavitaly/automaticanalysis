@@ -268,6 +268,8 @@ Main start
   display: none;
 }
 
+
+
 .main-img {
   width: 418px;
   /* transition: all ease 3s; */
@@ -480,6 +482,10 @@ Main end
 
 .img__icon {
   width: 50%;
+}
+
+.hidden {
+  display: none;
 }
 
 /* card end */

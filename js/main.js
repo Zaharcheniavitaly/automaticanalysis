@@ -3,6 +3,9 @@ const nav = document.querySelector("#nav");
 const navBtn = document.querySelector("#nav-btn");
 const navBtnImg = document.querySelector("#nav-btn-img");
 
+const textEl = document.querySelectorAll('.text')
+const buttonText = document.querySelector('.button-text')
+
 function handlerBurger() {
   if (nav.classList.toggle("open")) {
     navBtnImg.src = "./img/icon/close-nav.svg";
@@ -14,15 +17,12 @@ function handlerBurger() {
 navBtn.addEventListener("click", handlerBurger);
 
 
-const textEl = document.querySelectorAll('.text')
-console.log("textEl:", textEl)
-const buttonText = document.querySelector('.button-text')
-console.log("buttonText:", buttonText)
+
 
 function clickHandler (){
-  console.log("click");
   textEl.forEach((item)=>{
   item.classList.remove("hidden")
+  buttonText.classList.add("hidden")
 })
 }
 
