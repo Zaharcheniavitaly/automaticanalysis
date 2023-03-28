@@ -31,7 +31,7 @@
   }
 
   .main-content {
-    margin-top: 100px;
+    margin-top: 80px;
   }
 
   .main-title {
@@ -149,12 +149,11 @@
     display: none;
   }
 
-  .footer-wrapp {
-    
+  .footer-wrapp {    
     height: 50px;
   }
 
   .text__copyright {
-    font-size: 14px;
+    font-size: 13px;
 }
 }
