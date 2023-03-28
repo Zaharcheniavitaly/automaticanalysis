@@ -412,6 +412,11 @@ Main end
 } */
 
 /* card start */
+
+.offer {
+  padding-bottom: 20px;
+}
+
 .card-title {
   margin-top: 80px;
   margin-bottom: 60px;
@@ -426,7 +431,7 @@ Main end
   justify-content: center;
   flex-wrap: wrap;
 
-  row-gap: 60px;
+  row-gap: 40px;
   column-gap: 60px;
 }
 
@@ -486,12 +491,13 @@ Main end
 .hidden {
   display: none;
 }
+
+/* footer start */
 .footer {
   background-color: #202020;
 }
 
 .footer-wrapp {
-  margin-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -501,6 +507,115 @@ Main end
 .text__copyright {
   color: #fff;
 }
+
+/* footer end */
+
+/* Section questions start */
+.faq {
+  margin-top: 140px;
+  padding-bottom: 30px;
+
+  /* column-gap: 70px; */
+
+  background-color: #dedede;
+  height: 100%;
+}
+
+.faq-title {
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 66px;
+}
+
+.questions-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 40px;
+}
+
+.questions-answers {
+  max-width: 565px;
+}
+
+.question-border {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  background-color: rgb(52 57 73);
+  cursor: pointer;
+  position: relative;
+}
+
+.questions-arrow-buttom::after {
+  content: '';
+  position: absolute; /* Абсолютное позиционирование */
+  right: 30px;
+  top: 40px; /* Положение треугольника */
+  border: 20px solid transparent; /* Прозрачные границы */
+  border-top: 20px solid rgb(247, 159, 36); /* Добавляем треугольник */
+}
+
+.questions-arrow-top::after {
+  content: '';
+  position: absolute; /* Абсолютное позиционирование */
+  right: 30px;
+  top: 20px; /* Положение треугольника */
+  border: 20px solid transparent; /* Прозрачные границы */
+  border-bottom: 20px solid rgb(247, 159, 36); /* Добавляем треугольник */
+}
+
+.questions-question {
+  max-width: 400px;
+  color: #fff;
+  font-size: 22px;
+  line-height: 150%;
+}
+
+.question-answer {
+  margin-top: 10px;
+  padding: 0 15px 0 15px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+/* .questions-arrow {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #f95959;
+  position: relative;
+}
+
+.questions-arrow::after {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: 20px;
+} */
+
+/* .questions-arrow {
+  background:transparent;
+  border-radius: 10px;
+  padding: 20px;
+
+  color: #fff;
+} */
+
+/* Section questions end */
 
 /* card end */
 

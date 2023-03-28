@@ -129,10 +129,8 @@
   }
 
   .btn__2 {
-    
     /* margin-top: 10px; */
     margin-bottom: 40px;
-    
   }
 
   .card-title {
@@ -149,11 +147,17 @@
     display: none;
   }
 
-  .footer-wrapp {    
+  .footer-wrapp {
     height: 50px;
+    /* margin-top: 20px; */
   }
 
   .text__copyright {
     font-size: 13px;
-}
+  }
+
+  /* faq */
+  .faq {
+    margin-top: 120px;
+  }
 }
