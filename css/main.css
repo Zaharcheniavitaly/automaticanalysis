@@ -288,7 +288,7 @@ Main start
 
 /* transition: 3s linear; */
 /* } */
-*/ .slide-btn {
+ .slide-btn {
   display: flex;
   justify-content: center;
   margin-top: 10px;
@@ -520,7 +520,7 @@ Main end
   /* column-gap: 70px; */
 
   background-color: #dedede;
-  height: 100%;
+  min-height: 900px;
 }
 
 .faq-title {
