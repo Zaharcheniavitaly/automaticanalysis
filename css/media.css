@@ -160,4 +160,45 @@
   .faq {
     margin-top: 120px;
   }
+
+  .faq-title {
+    font-size: 30px;
+    line-height: 130%;
+  }
+
+  .question-border {
+    height: 100px;
+  }
+
+  .questions-question {
+    max-width: 250px;
+    font-size: 18px;
+    line-height: 130%;
+  }
+
+  .question-answer {
+    /* margin-top: 10px; */
+    padding: 0 10px 0 10px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 130%;
+  }
+
+  .questions-arrow-buttom::after {
+    content: '';
+    position: absolute;
+    right: 15px;
+    top: 40px; /* Положение треугольника */
+    border: 20px solid transparent; /* Прозрачные границы */
+    border-top: 20px solid rgb(247, 159, 36); /* Добавляем треугольник */
+  }
+
+  .questions-arrow-top::after {
+    content: '';
+    position: absolute; /* Абсолютное позиционирование */
+    right: 15px;
+    top: 20px; /* Положение треугольника */
+    border: 20px solid transparent; /* Прозрачные границы */
+    border-bottom: 20px solid rgb(247, 159, 36); /* Добавляем треугольник */
+  }
 }
