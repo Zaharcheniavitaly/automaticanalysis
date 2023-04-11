@@ -4,6 +4,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #000;
+  min-width: 360px;
 }
 
 .container {
@@ -288,7 +289,7 @@ Main start
 
 /* transition: 3s linear; */
 /* } */
- .slide-btn {
+.slide-btn {
   display: flex;
   justify-content: center;
   margin-top: 10px;
