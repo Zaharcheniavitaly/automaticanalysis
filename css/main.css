@@ -556,7 +556,7 @@ Main end
   font-weight: 700;
   color: white;
   background-color: rgb(52 57 73);
-  cursor: pointer;
+  /* cursor: pointer; */
   position: relative;
 }
 
@@ -567,6 +567,7 @@ Main end
   top: 40px; /* Положение треугольника */
   border: 20px solid transparent; /* Прозрачные границы */
   border-top: 20px solid rgb(247, 159, 36); /* Добавляем треугольник */
+  cursor: pointer;
 }
 
 .questions-arrow-top::after {

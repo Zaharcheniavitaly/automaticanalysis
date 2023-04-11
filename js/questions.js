@@ -7,7 +7,6 @@ const questionBorder = document.querySelectorAll('.question-border');
 function textHiddenButtom(e) {
   answers.forEach((answ, index) => {
     const answerID = e.target.id;
-    console.log('answers.forEach > answerID:', answerID);
 
     if (answerID == index) {
       if (e.target.classList.contains('questions-arrow-buttom')) {
